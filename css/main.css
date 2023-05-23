@@ -406,3 +406,34 @@ main .explore_by_categories .explore_by_categories-field .card:hover .card-info 
     color: var(--btn-text-black);
     z-index: 999;
 }
+main .top_creators .top_creators_field{
+    width: 100%;
+    height: 250px;
+    flex-wrap: wrap;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 0;
+    overflow: hidden;
+}
+main .top_creators .top_creators_field .card-info{
+    width: 40%;
+    gap: 30px;
+    padding: 15px ;
+    background-color: var(--card-bg-color);
+}
+
+main .top_creators .top_creators_field .card-info .card-author{
+    width: 70%;
+    gap: 10px;
+}
+
+main .top_creators .top_creators_field .card-info .artist{
+    width: 90%;
+}
+
+main .top_creators .top_creators_field .card-info .author_price{
+    width: 30%;
+    text-align: center;
+    border-left: 1px solid;
+}
