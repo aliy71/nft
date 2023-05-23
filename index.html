@@ -1,127 +1,543 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <link
-      rel="shortcut icon"
-      href="./images/logo/favicon.ico"
-      type="image/x-icon"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="./images/logo/apple-touch-icon.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="./images/logo/favicon-16x16.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="16x16"
-      href="./images/logo/favicon-32x32.png"
-    />
-    <link rel="manifest" href="./images/logo/site.webmanifest" />
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>NTF | Aliy</title>
 
-    <link rel="stylesheet" href="./css/main.css" />
+<head>
+  <link rel="shortcut icon" href="./images/logo/favicon.ico" type="image/x-icon" />
+  <link rel="apple-touch-icon" sizes="180x180" href="./images/logo/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/logo/favicon-16x16.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="./images/logo/favicon-32x32.png" />
+  <link rel="manifest" href="./images/logo/site.webmanifest" />
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NTF | Aliy</title>
 
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-  </head>
+  <link rel="stylesheet" href="./css/main.css" />
 
-  <body>
-    <div class="__app">
-      <header class="container">
-        <nav class="d-flex">
-          <div class="logo">
-            <img src="./images/logo/favicon.ico" alt="" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <div class="__app">
+    <header class="container">
+      <nav class="d-flex">
+        <div class="logo">
+          <img src="./images/logo/favicon.ico" alt="" />
+        </div>
+        <ul class="navbar d-flex">
+          <li><a class="active" href="#">explore</a></li>
+          <li><a href="#">creators</a></li>
+          <li><a href="#">comumnity</a></li>
+          <li>
+            <button class="btn">connect wallet</button>
+          </li>
+        </ul>
+      </nav>
+      <div class="header-field d-flex">
+        <div class="row">
+          <p class="header-text">
+            Explore, Buy and Sell the <span>Best NFTs!</span>
+          </p>
+          <div class="d-flex">
+            <button class="btn">explore</button>
+            <button class="btn btn-outline">create</button>
           </div>
-          <ul class="navbar d-flex">
-            <li><a class="active" href="#">explore</a></li>
-            <li><a href="#">creators</a></li>
-            <li><a href="#">comumnity</a></li>
-            <li>
-              <button class="btn">connect wallet</button>
-            </li>
-          </ul>
-        </nav>
-        <div class="header-field d-flex">
-          <div class="row">
-            <p class="header-text">
-              Explore, Buy and Sell the <span>Best NFTs!</span>
-            </p>
-            <div class="d-flex">
-                <button class="btn">explore</button>
-                <button class="btn btn-outline">create</button>
+        </div>
+        <div class="row">
+          <div class="box">
+            <div class="img">
+              <img src="./images/image 9.png" alt="" loading="lazy" />
             </div>
-          </div>
-          <div class="row">
-            <div class="box">
-              <div class="img">
-                <img src="./images/image 9.png" alt="" loading="lazy"/>
+            <div class="box-title d-flex">
+              <div class="artist box-row">
+                <p class="author"><i class="fa-solid fa-user"></i> artist</p>
+                <p class="author-nick">
+                  <i class="fa-solid fa-pen"></i> @wzard
+                </p>
               </div>
-              <div class="box-title d-flex">
-                <div class="artist box-row">
-                  <p class="author"><i class="fa-solid fa-user"></i> artist</p>
-                  <p class="author-nick"><i class="fa-solid fa-pen"></i> @wzard</p>
-                </div>
-                <div class="button box-row">
-                  <button class="btn">start bid</button>
-                </div>
+              <div class="button box-row">
+                <button class="btn">start bid</button>
               </div>
             </div>
           </div>
-          <div class="row d-flex">
-            <div class="col">
-                <p class="number">32k+</p>
-                <p class="text">Artworks</p>
+        </div>
+        <div class="row d-flex">
+          <div class="col">
+            <p class="number">32k+</p>
+            <p class="text">Artworks</p>
+          </div>
+          <div class="col">
+            <p class="number">32k+</p>
+            <p class="text">Artworks</p>
+          </div>
+          <div class="col">
+            <p class="number">32k+</p>
+            <p class="text">Artworks</p>
+          </div>
+        </div>
+      </div>
+      <div class="sponsor d-flex">
+        <div class="col">
+          <a href="https://www.coinbase.com" target="_blank">
+            <img src="./images/sponsor/coinbase.png" alt="" loading="lazy" />
+          </a>
+        </div>
+        <div class="col">
+          <a href="https://www.blockchain.com" target="_blank">
+            <img src="./images/sponsor/blockchain.png" alt="" loading="lazy" />
+          </a>
+        </div>
+        <div class="col">
+          <a href="https://www.binance.com" target="_blank">
+            <img src="./images/sponsor/binance.png" alt="" loading="lazy" />
+          </a>
+        </div>
+        <div class="col">
+          <a href="https://www.bitmex.com" target="_blank">
+            <img src="./images/sponsor/bitmex.png" alt="" loading="lazy" />
+          </a>
+        </div>
+      </div>
+    </header>
+    <main class="container">
+      <section class="live_auctions section d-flex">
+        <p class="title">live auctions</p>
+        <div class="live_auctions_field">
+          <div class="controller">
+            <i class="fa-solid fa-arrow-left"></i>
+            <i class="fa-solid fa-arrow-right"></i>
+          </div>
+          <div class="field d-flex">
+            <div class="card-box">
+              <div class="card">
+                <div class="img">
+                  <img src="./images/image 9.png" alt="">
+                </div>
+                <div class="card-info">
+                  <div class="card-author  d-flex">
+                    <img src="./images/profile.png" alt="">
+                    <div class="artist">
+                      <p class="author">Virtual Art</p>
+                      <p class="author_nick"> by @wzard </p>
+                    </div>
+                  </div>
+                  <div class="author_price d-flex">
+                    <p class="price author_nick">current bid</p>
+                    <p class="author upper">4.86 eth</p>
+                  </div>
+                  <button class="btn btn-outline">place a bid</buton>
+                </div>
+              </div>
             </div>
-            <div class="col">
-                <p class="number">32k+</p>
-                <p class="text">Artworks</p>
+            <div class="card-box">
+              <div class="card">
+                <div class="img">
+                  <img src="./images/image 9.png" alt="">
+                </div>
+                <div class="card-info">
+                  <div class="card-author  d-flex">
+                    <img src="./images/profile.png" alt="">
+                    <div class="artist">
+                      <p class="author">Virtual Art</p>
+                      <p class="author_nick"> by @wzard </p>
+                    </div>
+                  </div>
+                  <div class="author_price d-flex">
+                    <p class="price author_nick">current bid</p>
+                    <p class="author upper">4.86 eth</p>
+                  </div>
+                  <button class="btn btn-outline">place a bid</buton>
+                </div>
+              </div>
             </div>
-            <div class="col">
-                <p class="number">32k+</p>
-                <p class="text">Artworks</p>
+            <div class="card-box">
+              <div class="card">
+                <div class="img">
+                  <img src="./images/image 9.png" alt="">
+                </div>
+                <div class="card-info">
+                  <div class="card-author  d-flex">
+                    <img src="./images/profile.png" alt="">
+                    <div class="artist">
+                      <p class="author">Virtual Art</p>
+                      <p class="author_nick"> by @wzard </p>
+                    </div>
+                  </div>
+                  <div class="author_price d-flex">
+                    <p class="price author_nick">current bid</p>
+                    <p class="author upper">4.86 eth</p>
+                  </div>
+                  <button class="btn btn-outline">place a bid</buton>
+                </div>
+              </div>
+            </div>
+            <div class="card-box">
+              <div class="card">
+                <div class="img">
+                  <img src="./images/image 9.png" alt="">
+                </div>
+                <div class="card-info">
+                  <div class="card-author  d-flex">
+                    <img src="./images/profile.png" alt="">
+                    <div class="artist">
+                      <p class="author">Virtual Art</p>
+                      <p class="author_nick"> by @wzard </p>
+                    </div>
+                  </div>
+                  <div class="author_price d-flex">
+                    <p class="price author_nick">current bid</p>
+                    <p class="author upper">4.86 eth</p>
+                  </div>
+                  <button class="btn btn-outline">place a bid</buton>
+                </div>
+              </div>
+            </div>
+            <div class="card-box">
+              <div class="card">
+                <div class="img">
+                  <img src="./images/image 9.png" alt="">
+                </div>
+                <div class="card-info">
+                  <div class="card-author  d-flex">
+                    <img src="./images/profile.png" alt="">
+                    <div class="artist">
+                      <p class="author">Virtual Art</p>
+                      <p class="author_nick"> by @wzard </p>
+                    </div>
+                  </div>
+                  <div class="author_price d-flex">
+                    <p class="price author_nick">current bid</p>
+                    <p class="author upper">4.86 eth</p>
+                  </div>
+                  <button class="btn btn-outline">place a bid</buton>
+                </div>
+              </div>
+            </div>
+            <div class="card-box">
+              <div class="card">
+                <div class="img">
+                  <img src="./images/image 9.png" alt="">
+                </div>
+                <div class="card-info">
+                  <div class="card-author  d-flex">
+                    <img src="./images/profile.png" alt="">
+                    <div class="artist">
+                      <p class="author">Virtual Art</p>
+                      <p class="author_nick"> by @wzard </p>
+                    </div>
+                  </div>
+                  <div class="author_price d-flex">
+                    <p class="price author_nick">current bid</p>
+                    <p class="author upper">4.86 eth</p>
+                  </div>
+                  <button class="btn btn-outline">place a bid</buton>
+                </div>
+              </div>
+            </div>
+            <div class="card-box">
+              <div class="card">
+                <div class="img">
+                  <img src="./images/image 9.png" alt="">
+                </div>
+                <div class="card-info">
+                  <div class="card-author  d-flex">
+                    <img src="./images/profile.png" alt="">
+                    <div class="artist">
+                      <p class="author">Virtual Art</p>
+                      <p class="author_nick"> by @wzard </p>
+                    </div>
+                  </div>
+                  <div class="author_price d-flex">
+                    <p class="price author_nick">current bid</p>
+                    <p class="author upper">4.86 eth</p>
+                  </div>
+                  <button class="btn btn-outline">place a bid</buton>
+                </div>
+              </div>
+            </div>
+            <div class="card-box">
+              <div class="card">
+                <div class="img">
+                  <img src="./images/image 9.png" alt="">
+                </div>
+                <div class="card-info">
+                  <div class="card-author  d-flex">
+                    <img src="./images/profile.png" alt="">
+                    <div class="artist">
+                      <p class="author">Virtual Art</p>
+                      <p class="author_nick"> by @wzard </p>
+                    </div>
+                  </div>
+                  <div class="author_price d-flex">
+                    <p class="price author_nick">current bid</p>
+                    <p class="author upper">4.86 eth</p>
+                  </div>
+                  <button class="btn btn-outline">place a bid</buton>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="button">
+            <button class="btn btn-outline">view all</button>
+          </div>
+        </div>
+        <div class="how_it_works">
+          <h3 class="title">how it works</h3>
+          <div class="d-flex">
+
+          </div>
+        </div>
+      </section>
+      <section class="popular_collections d-flex">
+        <h3 class="title">popular collections</h3>
+        <div class="popular_collections-field d-flex">
+          <div class="field d-flex">
+            <div class="card-box">
+              <div class="card">
+                <div class="img">
+                  <img src="./images/image 9.png" alt="">
+                </div>
+                <div class="card-author  d-flex">
+                  <img src="./images/profile.png" alt="">
+                  <div class="artist d-flex">
+                    <p class="author_nick"> by @wzard </p>
+                    <p class="author">ERC-721</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card-box">
+              <div class="card">
+                <div class="img">
+                  <img src="./images/image 9.png" alt="">
+                </div>
+                <div class="card-author  d-flex">
+                  <img src="./images/profile.png" alt="">
+                  <div class="artist d-flex">
+                    <p class="author_nick"> by @wzard </p>
+                    <p class="author">ERC-721</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card-box">
+              <div class="card">
+                <div class="img">
+                  <img src="./images/image 9.png" alt="">
+                </div>
+                <div class="card-author  d-flex">
+                  <img src="./images/profile.png" alt="">
+                  <div class="artist d-flex">
+                    <p class="author_nick"> by @wzard </p>
+                    <p class="author">ERC-721</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card-box">
+              <div class="card">
+                <div class="img">
+                  <img src="./images/image 9.png" alt="">
+                </div>
+                <div class="card-author  d-flex">
+                  <img src="./images/profile.png" alt="">
+                  <div class="artist d-flex">
+                    <p class="author_nick"> by @wzard </p>
+                    <p class="author">ERC-721</p>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-        <div class="sponsor d-flex">
-            <div class="col">
-                <a href="https://www.coinbase.com" target="_blank">
-                    <img src="./images/sponsor/coinbase.png" alt="" loading="lazy" >
-                </a>
+        <div class="button"><button class="btn">show more</button></div>
+      </section>
+      <section class="explore_by_categories section d-flex">
+        <h3 class="title">explore by categories</h3>
+        <div class="explore_by_categories-field d-flex">
+          <div class="field d-flex">
+            <div class="card-box">
+              <div class="card">
+                <div class="img">
+                  <img src="./images/image 9.png" alt="">
+                </div>
+                <div class="card-info">
+                  <div class="card-author  d-flex">
+                    <img src="./images/profile.png" alt="">
+                    <div class="artist">
+                      <p class="author">Virtual Art</p>
+                      <p class="author_nick"> by @wzard </p>
+                    </div>
+                  </div>
+                  <div class="author_price d-flex">
+                    <p class="price author_nick">current bid</p>
+                    <p class="author upper">4.86 eth</p>
+                  </div>
+                  <button class="btn btn-outline">place a bid</buton>
+                </div>
+              </div>
             </div>
-            <div class="col">
-                <a href="https://www.blockchain.com" target="_blank">
-                    <img src="./images/sponsor/blockchain.png" alt="" loading="lazy" >
-                </a>
+            <div class="card-box">
+              <div class="card">
+                <div class="img">
+                  <img src="./images/image 9.png" alt="">
+                </div>
+                <div class="card-info">
+                  <div class="card-author  d-flex">
+                    <img src="./images/profile.png" alt="">
+                    <div class="artist">
+                      <p class="author">Virtual Art</p>
+                      <p class="author_nick"> by @wzard </p>
+                    </div>
+                  </div>
+                  <div class="author_price d-flex">
+                    <p class="price author_nick">current bid</p>
+                    <p class="author upper">4.86 eth</p>
+                  </div>
+                  <button class="btn btn-outline">place a bid</buton>
+                </div>
+              </div>
             </div>
-            <div class="col">
-                <a href="https://www.binance.com" target="_blank">
-                    <img src="./images/sponsor/binance.png" alt="" loading="lazy" >
-                </a>
+            <div class="card-box">
+              <div class="card">
+                <div class="img">
+                  <img src="./images/image 9.png" alt="">
+                </div>
+                <div class="card-info">
+                  <div class="card-author  d-flex">
+                    <img src="./images/profile.png" alt="">
+                    <div class="artist">
+                      <p class="author">Virtual Art</p>
+                      <p class="author_nick"> by @wzard </p>
+                    </div>
+                  </div>
+                  <div class="author_price d-flex">
+                    <p class="price author_nick">current bid</p>
+                    <p class="author upper">4.86 eth</p>
+                  </div>
+                  <button class="btn btn-outline">place a bid</buton>
+                </div>
+              </div>
             </div>
-            <div class="col">
-                <a href="https://www.bitmex.com" target="_blank">
-                    <img src="./images/sponsor/bitmex.png" alt="" loading="lazy" >
-                </a>
+            <div class="card-box">
+              <div class="card">
+                <div class="img">
+                  <img src="./images/image 9.png" alt="">
+                </div>
+                <div class="card-info">
+                  <div class="card-author  d-flex">
+                    <img src="./images/profile.png" alt="">
+                    <div class="artist">
+                      <p class="author">Virtual Art</p>
+                      <p class="author_nick"> by @wzard </p>
+                    </div>
+                  </div>
+                  <div class="author_price d-flex">
+                    <p class="price author_nick">current bid</p>
+                    <p class="author upper">4.86 eth</p>
+                  </div>
+                  <button class="btn btn-outline">place a bid</buton>
+                </div>
+              </div>
             </div>
+            <div class="card-box">
+              <div class="card">
+                <div class="img">
+                  <img src="./images/image 9.png" alt="">
+                </div>
+                <div class="card-info">
+                  <div class="card-author  d-flex">
+                    <img src="./images/profile.png" alt="">
+                    <div class="artist">
+                      <p class="author">Virtual Art</p>
+                      <p class="author_nick"> by @wzard </p>
+                    </div>
+                  </div>
+                  <div class="author_price d-flex">
+                    <p class="price author_nick">current bid</p>
+                    <p class="author upper">4.86 eth</p>
+                  </div>
+                  <button class="btn btn-outline">place a bid</buton>
+                </div>
+              </div>
+            </div>
+            <div class="card-box">
+              <div class="card">
+                <div class="img">
+                  <img src="./images/image 9.png" alt="">
+                </div>
+                <div class="card-info">
+                  <div class="card-author  d-flex">
+                    <img src="./images/profile.png" alt="">
+                    <div class="artist">
+                      <p class="author">Virtual Art</p>
+                      <p class="author_nick"> by @wzard </p>
+                    </div>
+                  </div>
+                  <div class="author_price d-flex">
+                    <p class="price author_nick">current bid</p>
+                    <p class="author upper">4.86 eth</p>
+                  </div>
+                  <button class="btn btn-outline">place a bid</buton>
+                </div>
+              </div>
+            </div>
+            <div class="card-box">
+              <div class="card">
+                <div class="img">
+                  <img src="./images/image 9.png" alt="">
+                </div>
+                <div class="card-info">
+                  <div class="card-author  d-flex">
+                    <img src="./images/profile.png" alt="">
+                    <div class="artist">
+                      <p class="author">Virtual Art</p>
+                      <p class="author_nick"> by @wzard </p>
+                    </div>
+                  </div>
+                  <div class="author_price d-flex">
+                    <p class="price author_nick">current bid</p>
+                    <p class="author upper">4.86 eth</p>
+                  </div>
+                  <button class="btn btn-outline">place a bid</buton>
+                </div>
+              </div>
+            </div>
+            <div class="card-box">
+              <div class="card">
+                <div class="img">
+                  <img src="./images/image 9.png" alt="">
+                </div>
+                <div class="card-info">
+                  <div class="card-author  d-flex">
+                    <img src="./images/profile.png" alt="">
+                    <div class="artist">
+                      <p class="author">Virtual Art</p>
+                      <p class="author_nick"> by @wzard </p>
+                    </div>
+                  </div>
+                  <div class="author_price d-flex">
+                    <p class="price author_nick">current bid</p>
+                    <p class="author upper">4.86 eth</p>
+                  </div>
+                  <button class="btn btn-outline">place a bid</buton>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-      </header>
-      <footer></footer>
-    </div>
-    <script src="./js/app.js"></script>
-  </body>
+        <div class="button"><button class="btn">show more</button></div>
+      </section>
+      <section class="top_creators section d-flex">
+        <h3 class="title">top creators</h3>
+
+      </section>
+    </main>
+    <footer></footer>
+  </div>
+  <script src="./js/app.js"></script>
+</body>
+
 </html>
